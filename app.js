@@ -8,7 +8,7 @@ const _ = require("lodash");
 
 const app = express();
 
-mongoose.connect("mongodb+srv://admin-pavitra:askomaite123@cluster0.slqvl.mongodb.net/todolistDB",{ useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false })
+mongoose.connect("mongodb+srv://admin-pavitra:askomaite123@cluster0.mmeao.mongodb.net/todolistDB",{ useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false })
 
 app.set('view engine', 'ejs');
 
